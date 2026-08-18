@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <header class="header-actions">
+            <h1>Payments</h1>
+            <a href="paymentform.html" class="btn btn-primary">New Payment</a>
+        </header>
+
+        <div class="table-container">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Card Type</th>
+                        <th scope="col" class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="paymentList">
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", displayPayments);
+    </script>
+</body>
+
+</html>

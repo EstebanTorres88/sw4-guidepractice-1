@@ -14,6 +14,9 @@
 
 ¿Qué diferencia existe entre un objeto y un array?
 
+        La diferencia fundamental es que un array guarda un conjunto o ista de elementos, inclusive puede ser una lista de objetos, el array guarda los elementos en un orden fijo usando indices
+        El objeto guarda los datos mediante pares clave-valor, los datos suelen tener algo en común ya que en conjunto representan un "algo" de la vida real.
+
 
 
 ¿Para qué sirve push()?
@@ -74,4 +77,11 @@
 
 
 ¿Por qué los datos permanecen después de recargar la página?
+
+Porque el localStorage está hecho para que la información que se guarde en el persista a recargas de página o cierres del navegador, la única de vaciar ese almacenamiento es limpiando el historial de navegación ya que se persiste en el disco duro del dispositivo.
+
+
+
+
+
 

@@ -1,5 +1,4 @@
-
-```
+# Hallazgos de accesibilidad
 
 Diseñar pensando en la **accesibilidad situacional o temporal** beneficia a usuarios sin discapacidades permanentes que enfrentan limitaciones por su entorno, como usar el teléfono con una sola mano, caminar bajo luz solar intensa o tener prisa mientras realizan otra tarea.
 

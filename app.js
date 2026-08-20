@@ -91,7 +91,7 @@ function displayPayments() {
         const deleteButton = document.createElement("button");
         deleteButton.type = "button";
         deleteButton.textContent = "Delete";
-        deleteButton.classList.add("btn","btn-danger")
+        deleteButton.classList.add("btn", "btn-danger")
 
         deleteButton.addEventListener("click", function () {
             deletePayment(index);

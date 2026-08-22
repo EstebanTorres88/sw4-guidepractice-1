@@ -45,6 +45,10 @@ payments.forEach(function (payment) {
     emailCell.textContent = payment.email;
     const cardTypeCell = document.createElement("td");
     cardTypeCell.textContent = payment.cardType;
+
+    row.appendChild(nameCell);
+    row.appendChild(emailCell);
+    row.appendChild(cardTypeCell);
 })
 
 ```
